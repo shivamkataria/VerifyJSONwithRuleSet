@@ -24,7 +24,7 @@ var valJSONObject = function(rule, jsonObj){
                 let ruleFunc = ruleProperties[j];
 
                 if(ruleObj.hasOwnProperty(ruleFunc)){
-                    library[ruleFunc].call(null, ruleObj, actualtempKey);
+                    output = library[ruleFunc].call(null, ruleObj, actualtempKey);
                 }
             }
         }

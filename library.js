@@ -5,7 +5,6 @@ lib['type'] = function(obj, key){
     let keyType = typeof(key);
     let expectedType = obj['type'];
 
-    //console.log(expectedType, keyType);
     if(expectedType != keyType){
         return false;
     }

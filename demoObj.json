@@ -2,7 +2,7 @@
     "rule":{
             "key1":{
                 "type": "string",
-                "canBenull":false    
+                "canBenull":true    
             },
             "key2":{
                 "type": "string",
