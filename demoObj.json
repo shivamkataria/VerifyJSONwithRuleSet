@@ -1,0 +1,20 @@
+{
+    "rule":{
+            "key1":{
+                "type": "string",
+                "canBenull":false    
+            },
+            "key2":{
+                "type": "string",
+                "enum": [
+                        "Value1",
+                        "Value2",
+                        "Value3"
+                    ]
+            }
+        },
+        "objValue":{
+            "key1":"hello",
+            "key2":"Value4"
+        }
+}
